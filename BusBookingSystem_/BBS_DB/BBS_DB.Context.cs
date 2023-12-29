@@ -26,5 +26,6 @@ namespace BusBookingSystem_.BBS_DB
         }
     
         public virtual DbSet<BusInformation> BusInformations { get; set; }
+        public virtual DbSet<Employee> Employees { get; set; }
     }
 }

@@ -16,7 +16,7 @@ namespace BusBookingSystem_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BusDesign());
+            Application.Run(new Login());
         }
     }
 }
