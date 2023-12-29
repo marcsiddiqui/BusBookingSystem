@@ -86,7 +86,30 @@ namespace BusBookingSystem_
 
         private void SaveBusData_Click(object sender, EventArgs e)
         {
-           
+            BusInformation busInformation = new BusInformation();
+
+            busInformation.CompanyName = CompanyName.Text;
+            busInformation.BusName = BusName.Text;
+            busInformation.From = From.Text;
+            busInformation.To = To.Text;
+            busInformation.Price = Convert.ToDecimal(Price.Text);
+            busInformation.DepartTime = DepartTime.Value;
+            busInformation.ArrivalTime = ArrivalTime.Value;
+            busInformation.Columns = Convert.ToInt32(ColumnsCount.Text);
+            busInformation.Rows = Convert.ToInt32(RowsCount.Text);
+            busInformation.Stops = Stops.Text;
+
+            busBookingSystemEntities.BusInformations.Add(busInformation);
+            busBookingSystemEntities.SaveChanges();
+        }
+
+        private void BusDesign_Load(object sender, EventArgs e)
+        {
+            DepartTime.Format = DateTimePickerFormat.Custom;
+            DepartTime.CustomFormat = "HH:mm";
+
+            ArrivalTime.Format = DateTimePickerFormat.Custom;
+            ArrivalTime.CustomFormat = "HH:mm";
         }
     }
 }
