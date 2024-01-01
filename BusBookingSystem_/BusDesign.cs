@@ -111,5 +111,11 @@ namespace BusBookingSystem_
             ArrivalTime.Format = DateTimePickerFormat.Custom;
             ArrivalTime.CustomFormat = "HH:mm";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Dashboard busDesign = new Dashboard();
+            CurrentSession.ShowWindow(busDesign, this, MDI.ActiveForm);
+        }
     }
 }

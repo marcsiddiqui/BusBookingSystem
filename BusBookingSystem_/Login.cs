@@ -34,8 +34,8 @@ namespace BusBookingSystem_
                 // close login form
                 // open the other form
 
-                BusDesign busDesign = new BusDesign();
-                busDesign.Show();
+                Dashboard busDesign = new Dashboard();
+                CurrentSession.ShowWindow(busDesign, this, MDI.ActiveForm);
             }
         }
     }

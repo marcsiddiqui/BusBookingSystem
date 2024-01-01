@@ -38,7 +38,7 @@
             // Username
             // 
             this.Username.Location = new System.Drawing.Point(59, 139);
-            this.Username.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Username.Margin = new System.Windows.Forms.Padding(4);
             this.Username.Name = "Username";
             this.Username.Size = new System.Drawing.Size(233, 25);
             this.Username.TabIndex = 0;
@@ -86,16 +86,18 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(348, 420);
+            this.ControlBox = false;
             this.Controls.Add(this.Login_);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Password);
             this.Controls.Add(this.Username);
             this.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

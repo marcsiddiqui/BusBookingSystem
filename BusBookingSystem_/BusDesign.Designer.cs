@@ -56,12 +56,13 @@ namespace BusBookingSystem_
             this.label9 = new System.Windows.Forms.Label();
             this.CompanyName = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // ColumnsCount
             // 
-            this.ColumnsCount.Location = new System.Drawing.Point(174, 240);
+            this.ColumnsCount.Location = new System.Drawing.Point(174, 275);
             this.ColumnsCount.Name = "ColumnsCount";
             this.ColumnsCount.Size = new System.Drawing.Size(200, 25);
             this.ColumnsCount.TabIndex = 7;
@@ -70,7 +71,7 @@ namespace BusBookingSystem_
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(32, 243);
+            this.label1.Location = new System.Drawing.Point(32, 278);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(63, 18);
             this.label1.TabIndex = 1;
@@ -78,7 +79,7 @@ namespace BusBookingSystem_
             // 
             // RowsCount
             // 
-            this.RowsCount.Location = new System.Drawing.Point(174, 271);
+            this.RowsCount.Location = new System.Drawing.Point(174, 306);
             this.RowsCount.Name = "RowsCount";
             this.RowsCount.Size = new System.Drawing.Size(200, 25);
             this.RowsCount.TabIndex = 8;
@@ -87,7 +88,7 @@ namespace BusBookingSystem_
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(32, 274);
+            this.label2.Location = new System.Drawing.Point(32, 309);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 18);
             this.label2.TabIndex = 1;
@@ -122,7 +123,7 @@ namespace BusBookingSystem_
             // 
             // GenerateDesign
             // 
-            this.GenerateDesign.Location = new System.Drawing.Point(174, 342);
+            this.GenerateDesign.Location = new System.Drawing.Point(174, 377);
             this.GenerateDesign.Name = "GenerateDesign";
             this.GenerateDesign.Size = new System.Drawing.Size(200, 35);
             this.GenerateDesign.TabIndex = 10;
@@ -132,7 +133,7 @@ namespace BusBookingSystem_
             // 
             // BusName
             // 
-            this.BusName.Location = new System.Drawing.Point(174, 48);
+            this.BusName.Location = new System.Drawing.Point(174, 83);
             this.BusName.Name = "BusName";
             this.BusName.Size = new System.Drawing.Size(200, 25);
             this.BusName.TabIndex = 1;
@@ -140,7 +141,7 @@ namespace BusBookingSystem_
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(32, 51);
+            this.label3.Location = new System.Drawing.Point(32, 86);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(76, 18);
             this.label3.TabIndex = 1;
@@ -149,7 +150,7 @@ namespace BusBookingSystem_
             // 
             // DepartTime
             // 
-            this.DepartTime.Location = new System.Drawing.Point(174, 174);
+            this.DepartTime.Location = new System.Drawing.Point(174, 209);
             this.DepartTime.Name = "DepartTime";
             this.DepartTime.Size = new System.Drawing.Size(200, 25);
             this.DepartTime.TabIndex = 5;
@@ -157,7 +158,7 @@ namespace BusBookingSystem_
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(32, 177);
+            this.label4.Location = new System.Drawing.Point(32, 212);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(111, 18);
             this.label4.TabIndex = 1;
@@ -167,7 +168,7 @@ namespace BusBookingSystem_
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(32, 212);
+            this.label5.Location = new System.Drawing.Point(32, 247);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(123, 18);
             this.label5.TabIndex = 1;
@@ -176,14 +177,14 @@ namespace BusBookingSystem_
             // 
             // ArrivalTime
             // 
-            this.ArrivalTime.Location = new System.Drawing.Point(174, 207);
+            this.ArrivalTime.Location = new System.Drawing.Point(174, 242);
             this.ArrivalTime.Name = "ArrivalTime";
             this.ArrivalTime.Size = new System.Drawing.Size(200, 25);
             this.ArrivalTime.TabIndex = 6;
             // 
             // Price
             // 
-            this.Price.Location = new System.Drawing.Point(174, 141);
+            this.Price.Location = new System.Drawing.Point(174, 176);
             this.Price.Name = "Price";
             this.Price.Size = new System.Drawing.Size(200, 25);
             this.Price.TabIndex = 4;
@@ -191,7 +192,7 @@ namespace BusBookingSystem_
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(32, 144);
+            this.label6.Location = new System.Drawing.Point(32, 179);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(82, 18);
             this.label6.TabIndex = 1;
@@ -200,7 +201,7 @@ namespace BusBookingSystem_
             // 
             // From
             // 
-            this.From.Location = new System.Drawing.Point(174, 79);
+            this.From.Location = new System.Drawing.Point(174, 114);
             this.From.Name = "From";
             this.From.Size = new System.Drawing.Size(200, 25);
             this.From.TabIndex = 2;
@@ -208,7 +209,7 @@ namespace BusBookingSystem_
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(32, 82);
+            this.label7.Location = new System.Drawing.Point(32, 117);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(42, 18);
             this.label7.TabIndex = 1;
@@ -217,7 +218,7 @@ namespace BusBookingSystem_
             // 
             // To
             // 
-            this.To.Location = new System.Drawing.Point(174, 110);
+            this.To.Location = new System.Drawing.Point(174, 145);
             this.To.Name = "To";
             this.To.Size = new System.Drawing.Size(200, 25);
             this.To.TabIndex = 3;
@@ -225,7 +226,7 @@ namespace BusBookingSystem_
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(32, 113);
+            this.label8.Location = new System.Drawing.Point(32, 148);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(26, 18);
             this.label8.TabIndex = 1;
@@ -234,7 +235,7 @@ namespace BusBookingSystem_
             // 
             // SaveBusData
             // 
-            this.SaveBusData.Location = new System.Drawing.Point(174, 383);
+            this.SaveBusData.Location = new System.Drawing.Point(174, 418);
             this.SaveBusData.Name = "SaveBusData";
             this.SaveBusData.Size = new System.Drawing.Size(200, 35);
             this.SaveBusData.TabIndex = 11;
@@ -244,7 +245,7 @@ namespace BusBookingSystem_
             // 
             // Stops
             // 
-            this.Stops.Location = new System.Drawing.Point(174, 302);
+            this.Stops.Location = new System.Drawing.Point(174, 337);
             this.Stops.Name = "Stops";
             this.Stops.Size = new System.Drawing.Size(200, 25);
             this.Stops.TabIndex = 9;
@@ -252,7 +253,7 @@ namespace BusBookingSystem_
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(32, 305);
+            this.label9.Location = new System.Drawing.Point(32, 340);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(44, 18);
             this.label9.TabIndex = 1;
@@ -261,7 +262,7 @@ namespace BusBookingSystem_
             // 
             // CompanyName
             // 
-            this.CompanyName.Location = new System.Drawing.Point(174, 17);
+            this.CompanyName.Location = new System.Drawing.Point(174, 52);
             this.CompanyName.Name = "CompanyName";
             this.CompanyName.Size = new System.Drawing.Size(200, 25);
             this.CompanyName.TabIndex = 0;
@@ -269,18 +270,29 @@ namespace BusBookingSystem_
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(32, 20);
+            this.label10.Location = new System.Drawing.Point(32, 55);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(114, 18);
             this.label10.TabIndex = 1;
             this.label10.Text = "Company Name";
             this.label10.Click += new System.EventHandler(this.label3_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(20, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(135, 23);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "<< Dashboard";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // BusDesign
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1370, 496);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.ArrivalTime);
             this.Controls.Add(this.DepartTime);
             this.Controls.Add(this.panel1);
@@ -346,6 +358,7 @@ namespace BusBookingSystem_
         private Label label9;
         private TextBox CompanyName;
         private Label label10;
+        private Button button1;
     }
 }
 
